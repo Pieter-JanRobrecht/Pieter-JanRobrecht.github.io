@@ -15,6 +15,8 @@ Do paragraph's work?
 ## Posts
 
 What do we have in here?
+
+
 {%- if site.posts.size > 0 -%}
   {%- for post in site.posts -%}
     {%- assign date_format = "%Y-%m-%d" -%}
