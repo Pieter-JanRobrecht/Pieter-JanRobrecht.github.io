@@ -2,6 +2,14 @@ title: Working title
 
 ...
 defaults:
-  - values:
-      author: "Pieter-Jan"
+  - scope:
+      path: ''
+      type: 'posts' 
+    values:
+      layout: 'posts'
+  - scope:
+      path: ''
+      type: 'pages' 
+    values:
+      author: 'Pieter-Jan'
 ...
