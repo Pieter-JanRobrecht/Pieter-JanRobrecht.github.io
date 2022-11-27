@@ -12,6 +12,7 @@ Have a lovely day and see you later!
 
 ## Posts
 
+<br />
 {%- if site.posts.size > 0 -%}
   {%- for post in site.posts -%}
     {%- assign date_format = "%Y-%m-%d" -%}
