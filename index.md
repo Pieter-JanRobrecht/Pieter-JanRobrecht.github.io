@@ -12,11 +12,9 @@ Have a lovely day and see you later!
 
 ## Posts
 
-What is here so far?
-
 {%- if site.posts.size > 0 -%}
   {%- for post in site.posts -%}
     {%- assign date_format = "%Y-%m-%d" -%}
-    [ {{ post.date | date: date_format }} ] [{{ post.title | escape }}]({{ post.url | relative_url }})  
+    [{{ post.date | date: date_format }}] [{{ post.title | escape }}]({{ post.url | relative_url }})  
   {%- endfor -%}
 {%- endif -%}
