@@ -1,4 +1,4 @@
-# Hi
+## Hi
 
 It's me!
 You probably don't know me and that's just fine.
@@ -9,6 +9,9 @@ It's mainly a place for me to put some thoughts down really.
 In an informal way.
 Anyways, there should be a button or a list here somewhere that might lead you to one of my thoughts, experiments, ... .
 Have a lovely day and see you later!
+
+
+## Posts
 
 {%- if site.posts.size > 0 -%}
   {%- for post in site.posts -%}
