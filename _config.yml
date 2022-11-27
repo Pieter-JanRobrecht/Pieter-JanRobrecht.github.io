@@ -1,1 +1,7 @@
 title: Working title
+
+...
+defaults:
+  - values:
+      author: "Pieter-Jan"
+...
