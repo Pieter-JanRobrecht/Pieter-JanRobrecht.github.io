@@ -9,3 +9,14 @@ It's mainly a place for me to put some thoughts down really.
 In an informal way.
 Anyways, there should be a button or a list here somewhere that might lead you to one of my thoughts, experiments, ... .
 Have a lovely day and see you later!
+
+{%- if site.posts.size > 0 -%}
+  <ul>
+    {%- for post in site.posts -%}
+    <li>
+      {%- assign date_format = "%Y-%m-%d" -%}
+      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
