@@ -12,7 +12,8 @@ Have a lovely day and see you later!
 
 ## Posts
 
-What is here so far?  
+What is here so far?
+
 {%- if site.posts.size > 0 -%}
   {%- for post in site.posts -%}
     {%- assign date_format = "%Y-%m-%d" -%}
