@@ -1,0 +1,29 @@
+
+---
+---
+
+@import "{{ site.theme }}";
+
+.menu { 
+	border-top: var(--border);
+	border-bottom: var(--border);
+    max-width: 650px;
+    margin: 0 auto;
+	
+	ul {
+		margin-top: 18px;
+		list-style-type: none;
+		text-align: right;
+
+		li {
+			display: inline;
+			margin-left: 10px;
+		}
+
+		a:hover {
+			text-decoration: none;
+			color: var(--background-color);
+			background-color: var(--base-color);
+		}
+	}
+}
