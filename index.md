@@ -12,9 +12,10 @@ Have a lovely day and see you later!
 
 ## Posts
 
+Why can't this just be another section?
 {%- if site.posts.size > 0 -%}
   {%- for post in site.posts -%}
     {%- assign date_format = "%Y-%m-%d" -%}
-- [ {{ post.date | date: date_format }} ] [{{ post.title | escape }}]({{ post.url | relative_url }})  
+    [ {{ post.date | date: date_format }} ] [{{ post.title | escape }}]({{ post.url | relative_url }})  
   {%- endfor -%}
 {%- endif -%}
