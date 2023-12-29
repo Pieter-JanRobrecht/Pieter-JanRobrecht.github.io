@@ -3,14 +3,36 @@
     <title>PlatyByte</title>
     <link rel="icon" type="image/png" href="assets/favicon_16x16.png"/>
     <style>
-      img {
-        display: block;
-        margin: auto;
+      body {
+        margin: 0;
+      }
+
+      a {
+        cursor: url("assets/cursor_21x25.png"), auto;
+      }
+
+      .imagesContainer {
+        position: relative;
+      }
+
+      .platybyte {
+        position: absolute;
+        z-index: 1;
+      }
+
+      .eye {
+        position: absolute;
+        z-index: 2;
       }
     </style>
   </head>
   <body>
-    <img src="assets/platybyte_1024x1024.jpg" alt="PlatyByte"/>
+    <div class="imagesContainer">
+      <img class="platybyte" src="assets/platybyte.png" alt="PlatyByte"/>
+      <a href="#" onClick="alert('Hello World!')">
+        <img class="eye" src="assets/eye.png"/>
+      </a>
+    </div>
   </body>
 </html>
 
